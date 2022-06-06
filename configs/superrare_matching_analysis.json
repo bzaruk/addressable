@@ -1,0 +1,13 @@
+{
+  "tweets_csv": "/Users/bzaruk/Documents/Projects/bzaruk/addressable/data/processed/superrare_tweets_search.csv",
+  "txs_csv": "/Users/bzaruk/Documents/Projects/bzaruk/addressable/data/processed/superrare_txs_info.csv",
+  "nfts_csv": "/Users/bzaruk/Documents/Projects/bzaruk/addressable/data/processed/superrare_nfts_info.csv",
+  "methods": {
+    "UsernameMethod": {},
+    "BotMethod": {
+      "bot_username": "SuperRareBot",
+      "artist_pattern": ".*Artwork by @([^ ]+).*",
+      "owner_pattern": ".*Sold to @([^ ]+).*"
+    }
+  }
+}
